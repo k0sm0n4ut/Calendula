@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "minecraft:block/cross",
   "textures": {
-    "layer0": "calendula:block/pine_sapling"
+    "cross": "calendula:block/pine_sapling"
   }
 }

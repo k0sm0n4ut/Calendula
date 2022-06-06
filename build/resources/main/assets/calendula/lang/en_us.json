@@ -1,0 +1,27 @@
+{
+  "item.calendula.pine_cone": "Pine Cone",
+  "item.calendula.flour": "Flour",
+  "item.calendula.dough": "Dough",
+  "item.calendula.copper_helmet":  "Copper Helmet",
+  "item.calendula.copper_chestplate":  "Copper Chestplate",
+  "item.calendula.copper_leggings": "Copper Leggings",
+  "item.calendula.copper_boots": "Copper Boots",
+  "item.calendula.copper_sword": "Copper Sword",
+  "item.calendula.copper_pickaxe": "Copper Pickaxe",
+  "item.calendula.copper_axe": "Copper Axe",
+  "item.calendula.copper_shovel":  "Copper Shovel",
+  "item.calendula.copper_hoe":  "Copper Hoe",
+  "item.calendula.copper_horse_armor": "Copper Horse Armor",
+
+
+  "block.calendula.pine_log": "Pine Log",
+  "block.calendula.stripped_pine_log": "Stripped Pine Log",
+  "block.calendula.pine_wood": "Pine Wood",
+  "block.calendula.stripped_pine_wood": "Stripped Pine Wood",
+  "block.calendula.pine_leaves": "Pine Leaves",
+  "block.calendula.pine_sapling": "Pine Sapling",
+
+
+  "itemGroup.tab_calendula": "Calendula"
+
+}

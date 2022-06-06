@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "calendula:block/stripped_pine_log_top",
+    "side": "calendula:block/stripped_pine_log"
+  }
+}

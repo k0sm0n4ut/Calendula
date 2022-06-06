@@ -23,6 +23,20 @@ import org.slf4j.Logger;
 
 import java.util.stream.Collectors;
 
+
+/*
+/1. Brot backen, Pinien, Kupferwerkzeug, Wollrüstung, Baumwolle,
+
+Brot = Wheat= Flour= Dough= Bread
+
+Steel? Diamond=Trash
+
+Ringelblumen
+
+ */
+
+//seed 6003089200537725271
+
 // The value here should match an entry in the META-INF/mods.toml file
 @net.minecraftforge.fml.common.Mod(calendula.MOD_ID)
 public class calendula
@@ -103,3 +117,4 @@ public class calendula
         }
     }
 }
+//uw shiT
