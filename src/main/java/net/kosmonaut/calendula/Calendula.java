@@ -44,6 +44,7 @@ Ringelblumen
  */
 
 //seed 6003089200537725271
+// good seed
 
 // The value here should match an entry in the META-INF/mods.toml file
 @net.minecraftforge.fml.common.Mod(Calendula.MOD_ID)
