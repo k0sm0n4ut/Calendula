@@ -21,7 +21,6 @@ public class ModTreeGeneration {
         if(types.contains(BiomeDictionary.Type.PLAINS)) {
             List<Holder<PlacedFeature>> base =
                     event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
-
             base.add(ModPlacedFeatures.PINE_PLACED);
         }
     }

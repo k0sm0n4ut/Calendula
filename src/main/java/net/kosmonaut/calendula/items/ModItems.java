@@ -14,7 +14,6 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Calendula.MOD_ID);
 
-
     //add an item
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TAB_CALENDULA).stacksTo(16)));
@@ -41,8 +40,7 @@ public class ModItems {
             () -> new HoeItem(ModTiers.COPPER, 0, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.TAB_CALENDULA)));
 
-
-
+    
     public static void register(IEventBus eventBus) {
     ITEMS.register(eventBus);
 }
