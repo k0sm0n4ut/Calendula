@@ -1,31 +1,25 @@
 {
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_obsidian": "2022-06-06 16:11:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2022-06-06 16:11:22 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_sword": "2022-06-06 16:11:39 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
-    "criteria": {
-      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2022-06-06 16:11:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
     },
     "done": true
   },
@@ -41,43 +35,25 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_leggings": {
-    "criteria": {
-      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
-    },
-    "done": true
-  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_leggings": "2022-06-06 16:11:43 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/tools/iron_axe": {
+  "minecraft:story/mine_stone": {
     "criteria": {
-      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+      "get_stone": "2022-06-06 16:39:06 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_hoe": {
+  "minecraft:recipes/building_blocks/stone": {
     "criteria": {
-      "has_stick": "2022-06-06 16:11:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/shield": {
-    "criteria": {
-      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
     },
     "done": true
   },
   "minecraft:recipes/tools/iron_pickaxe": {
-    "criteria": {
-      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2022-06-06 16:11:39 +0200"
     },
@@ -89,21 +65,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bucket": {
+  "minecraft:recipes/decorations/furnace": {
     "criteria": {
-      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+  "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
-      "has_iron_sword": "2022-06-06 16:11:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_boots": {
-    "criteria": {
-      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+      "has_beetroot": "2022-06-06 16:39:49 +0200"
     },
     "done": true
   },
@@ -120,13 +90,19 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/hopper": {
+  "minecraft:recipes/decorations/campfire": {
     "criteria": {
-      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+      "has_stick": "2022-06-06 16:11:22 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/campfire": {
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2022-06-06 16:40:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2022-06-06 16:11:22 +0200"
     },
@@ -138,9 +114,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_pickaxe": {
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
-      "has_stick": "2022-06-06 16:11:22 +0200"
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
     },
     "done": true
   },
@@ -162,15 +138,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chain": {
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+      "in_water": "2022-06-06 16:40:00 +0200"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
     },
     "done": true
   },
@@ -192,7 +180,181 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_chestplate": {
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-06-06 16:40:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "beetroots": "2022-06-06 16:39:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2022-06-06 16:26:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-06-06 16:40:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-06-06 16:40:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2022-06-06 16:11:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2022-06-06 16:11:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2022-06-06 16:39:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2022-06-06 16:40:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-06-06 16:40:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2022-06-06 16:11:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_sword": "2022-06-06 16:11:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2022-06-06 16:11:39 +0200"
     },
@@ -210,15 +372,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/iron_trapdoor": {
+  "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2022-06-06 16:11:39 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/smithing_table": {
+  "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+      "in_water": "2022-06-06 16:40:00 +0200"
     },
     "done": true
   },
@@ -228,15 +390,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/shears": {
+  "minecraft:recipes/tools/stone_axe": {
     "criteria": {
-      "has_iron_ingot": "2022-06-06 16:11:39 +0200"
+      "has_cobblestone": "2022-06-06 16:39:06 +0200"
     },
     "done": true
   },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2022-06-06 16:11:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2022-06-06 16:40:05 +0200"
     },
     "done": true
   },

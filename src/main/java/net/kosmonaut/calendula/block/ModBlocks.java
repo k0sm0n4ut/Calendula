@@ -1,7 +1,7 @@
 package net.kosmonaut.calendula.block;
 
+import net.kosmonaut.calendula.Calendula;
 import net.kosmonaut.calendula.block.custom.ModFlammableRotatedPillarBlock;
-import net.kosmonaut.calendula.calendula;
 import net.kosmonaut.calendula.items.ModCreativeModeTab;
 import net.kosmonaut.calendula.items.ModItems;
 import net.kosmonaut.calendula.world.feature.tree.PineTreeGrower;
@@ -14,7 +14,6 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,7 +23,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, calendula.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, Calendula.MOD_ID);
 
 
 

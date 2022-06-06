@@ -1,7 +1,7 @@
 package net.kosmonaut.calendula.items;
 
 
-import net.kosmonaut.calendula.calendula;
+import net.kosmonaut.calendula.Calendula;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, calendula.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, Calendula.MOD_ID);
 
 
     //add an item
