@@ -1,0 +1,15 @@
+### Ignore the following files from being synched with the git repository ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Build folders
+/.gradle/
+/.idea/
+/build/
+/gradle/
+
+# local minecraft forge client
+/run/
