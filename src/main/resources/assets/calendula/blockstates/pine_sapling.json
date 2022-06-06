@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "minecraft:block/pine_sapling"
-    }
+    "": { "model": "calendula:block/pine_sapling" }
   }
 }

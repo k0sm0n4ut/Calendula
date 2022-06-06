@@ -7,6 +7,7 @@ import net.kosmonaut.calendula.items.ModItems;
 import net.kosmonaut.calendula.world.feature.tree.PineTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -84,12 +85,26 @@ public class ModBlocks {
             () -> new SaplingBlock(new PineTreeGrower(),
                     BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.TAB_CALENDULA);
 
+    public static final RegistryObject<Block> POTTED_PINE_SAPLING = registerBlockWithoutBlockItem("potted_pine_sapling",
+            () -> new FlowerPotBlock(null, ModBlocks.PINE_SAPLING,
+                    BlockBehaviour.Properties.copy(Blocks.POTTED_OAK_SAPLING).noOcclusion()));
 
+    public static final RegistryObject<Block> MARIGOLD = registerBlock("marigold",
+            () -> new FlowerBlock(MobEffects.HEAL, 8,
+                    BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()), ModCreativeModeTab.TAB_CALENDULA);
+
+    public static final RegistryObject<Block> POTTED_MARIGOLD = registerBlockWithoutBlockItem("potted_marigold",
+            () -> new FlowerPotBlock(null, ModBlocks.MARIGOLD,
+                    BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);
         return toReturn;
+    }
+
+    private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
+        return BLOCKS.register(name, block);
     }
 
     private static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block,
